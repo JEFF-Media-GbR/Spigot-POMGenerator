@@ -1,0 +1,13 @@
+id,name,groupId,artifactId,version,repoName,repoUrl,scope,pluginName
+bstats,bStats,org.bstats,bstats-bukkit,2.2.1,spigot-public,https://hub.spigotmc.org/nexus/content/groups/public/,compile,
+jetbrains-annotations,JetBrains Annotations,org.jetbrains,annotations,RELEASE,,,provided,
+jefflib,JeffLib,de.jeff_media,JeffLib,2.0-SNAPSHOT,jeff-media-gbr,https://repo.jeff-media.de/maven2/,compile,
+updatechecker,Update Checker (JeffLib),de.jeff_media,SpigotUpdateChecker,2.3.4,jeff-media-gbr,https://repo.jeff-media.de/maven2/,compile,
+customblockdata,Custom Block Data (JeffLib),de.jeff_media,CustomBlockData,1.0-SNAPSHOT,jeff-media-gbr,https://repo.jeff-media.de/maven2/,compile,
+worldedit,WorldEdit (1.13+),com.sk89q.worldedit,worldedit-bukkit,7.2.0-SNAPSHOT,enginehub-maven,https://maven.enginehub.org/repo/,provided,WorldEdit
+worldedit-legacy,WorldEdit (1.12.2 and below),com.sk89q.worldedit,worldedit-bukkit,6.1.4-SNAPSHOT,enginehub-maven,https://maven.enginehub.org/repo/,provided,WorldEdit
+worldguard,WorldGuard (1.13+),com.sk89q.worldguard,worldguard-bukkit,7.0.5-SNAPSHOT,enginehub-maven,https://maven.enginehub.org/repo/,provided,WorldGuard
+worldguard-legacy,WorldGuard (1.12.2 and below),com.sk89q.worldguard,worldguard-bukkit,6.2.2-SNAPSHOT,enginehub-maven,https://maven.enginehub.org/repo/,provided,WorldGuard
+placeholderapi,PlaceholderAPI,me.clip,placeholderapi,2.10.9,placeholderapi,http://repo.extendedclip.com/content/repositories/placeholderapi/,provided,PlaceholderAPI
+paperlib,PaperLib,io.papermc,paperlib,1.0.6,papermc,https://papermc.io/repo/repository/maven-public/,compile,
+vault,Vault,com.github.MilkBowl,VaultAPI,1.7,jitpack.io,https://jitpack.io,provided.io,Vault

@@ -1,0 +1,12 @@
+name: %artifactId%
+main: %groupId%.%artifactIdLowerCase%.%artifactId%
+version: ${project.version}
+description: "%description%"
+
+depend:
+%depend%
+softdepend:
+%softdepend%
+permissions:
+
+commands:
