@@ -89,9 +89,9 @@ function getDepends($dependencies, $harddepends, bool $hard)
 
     foreach ($dependencies as $dependency) {
         if($dependency->depend == "") continue;
-            if (($hard && in_array($dependency->depend, $harddepends))
-                || (!$hard && !in_array($dependency->depend, $harddepends))) {
-                if(!in_array($dependency->depend, $depends)) {
+            if (($hard && in_array($dependency->id, $harddepends))
+                || (!$hard && !in_array($dependency->id, $harddepends))) {
+                if(!in_array($dependency->id, $depends)) {
                     array_push($depends, $dependency->depend);
                 }
             }

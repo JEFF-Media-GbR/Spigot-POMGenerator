@@ -58,12 +58,28 @@ $dependencies = load_dependencies($dependencies, true);
         </tr>
     </table>
     <h2>Dependencies</h2>
+    <script>
+        function showOrHide(name)
+        {
+            if (document.getElementById(name).checked)
+            {
+                document.getElementById(name + "_depend").style.visibility = 'visible';
+            } else {
+                document.getElementById(name + "_depend").style.visibility = 'hidden';
+                document.getElementById(name + "_depend").checked = false;
+
+            }
+        }
+    </script>
+    <style>
+        tr:nth-child(even) {background: #CCC}
+        tr:nth-child(odd) {background: #FFF}
+    </style>
     <table>
+        <thead style="font-weight: bold"><td></td><td>Name</td><td>Depend</td><td>Notes</td></thead>
         <?php
         foreach ($dependencies as $dependency) {
-            echo "<tr><td>";
             $dependency->getCheckBox();
-            echo "</td></tr>";
         }
         ?>
     </table>
