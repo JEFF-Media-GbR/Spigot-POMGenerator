@@ -14,6 +14,7 @@ $xml = file_get_contents("pom.xml");
 $xml = str_replace("%dependencies%",array_to_string($dependencies),$xml);
 $xml = str_replace("%repositories%",array_to_string($repositories),$xml);
 $xml = str_replace("%relocations%",get_relocations($dependencies),$xml);
+$xml = str_replace("%ftp%",get_post('ftp',false) == "" ? "" : "<distributionManagement><repository><id>jeff-ftp</id><url>ftps://ftp.jeff-media.de/maven2</url></repository></distributionManagement>", $xml);
 $xml = replace_placeholders($xml);
 $dom = new DOMDocument('1.0');
 $dom->formatOutput = true;

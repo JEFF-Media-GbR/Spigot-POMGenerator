@@ -1,4 +1,4 @@
-id,name,groupId,artifactId,version,repoName,repoUrl,scope,pluginName
+id,name,groupId,artifactId,version,repoName,repoUrl,scope,pluginName,description
 bstats,bStats,org.bstats,bstats-bukkit,2.2.1,spigot-public,https://hub.spigotmc.org/nexus/content/groups/public/,compile,,
 jetbrains-annotations,JetBrains Annotations,org.jetbrains,annotations,RELEASE,,,provided,,
 jefflib,JeffLib,de.jeff_media,JeffLib,2.0-SNAPSHOT,jeff-media-gbr,https://repo.jeff-media.de/maven2/,compile,,
@@ -11,3 +11,5 @@ worldguard-legacy,WorldGuard 6,com.sk89q.worldguard,worldguard-bukkit,6.2.2-SNAP
 placeholderapi,PlaceholderAPI,me.clip,placeholderapi,2.10.9,placeholderapi,http://repo.extendedclip.com/content/repositories/placeholderapi/,provided,PlaceholderAPI,
 paperlib,PaperLib,io.papermc,paperlib,1.0.6,papermc,https://papermc.io/repo/repository/maven-public/,compile,,
 vault,Vault,com.github.MilkBowl,VaultAPI,1.7,jitpack.io,https://jitpack.io,provided.io,Vault,
+lombok,Lombok,org.projectlombok,lombok,1.18.20,,,provided,,
+acf,Annotation Command Framework,co.aikar,acf-paper,0.5.0-SNAPSHOT,aikar,https://repo.aikar.co/content/groups/aikar/,compile,,

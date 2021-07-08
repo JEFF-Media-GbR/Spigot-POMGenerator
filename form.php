@@ -1,3 +1,4 @@
+
 <?php
 
 require_once("funcs.php");
@@ -56,6 +57,10 @@ $dependencies = load_dependencies($dependencies, true);
                 </select>
             </td>
         </tr>
+        <tr>
+            <td>Deploy to JEFF Repo</td>
+            <td><input type="checkbox" id="ftp" <?php if(get_post('ftp',false)=="on") {?>checked="checked" <?php } ?> name="ftp"></input>
+</td></tr>
     </table>
     <h2>Dependencies</h2>
     <script>

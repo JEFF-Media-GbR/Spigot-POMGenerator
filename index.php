@@ -15,7 +15,6 @@ require_once("funcs.php");
 <body>
 
 <?php
-
 if(!isset($_GET['action'])) {
     require("form.php");
 } else {
